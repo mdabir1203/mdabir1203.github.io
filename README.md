@@ -10,9 +10,8 @@ Add your GitHub username once and all of your info will automatically be updated
 
 ![Page Speed](/README_images/speed.png)
 
-### <a href="<img width="1440" alt="image" src="https://user-images.githubusercontent.com/66947064/215591409-7b2e0b0a-3ea8-4760-bb4a-f69e75e8edf9.png">#/">LIVE DEMO</a>
+### <img width="1440" alt="image" src="https://user-images.githubusercontent.com/66947064/215591409-7b2e0b0a-3ea8-4760-bb4a-f69e75e8edf9.png">#/"
 
-![Project Preview](/README_images/preview.png)
 
 
 
