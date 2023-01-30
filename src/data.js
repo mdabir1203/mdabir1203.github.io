@@ -5,26 +5,29 @@ import {
   FaBootstrap,
   FaReact,
   FaGitAlt,
-  FaGithubSquare,
+  FaRaspberryPi,
+  FaPython,
   FaLink,
 } from "react-icons/fa";
 import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
-
+import Logo from "./images/logo1.svg";
+import Logo2 from "./images/Divergence.gif";
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HomePage from "./images/homepage.png";
+
+import HomePage2 from "./images/homepage2.png";
 // If you change the import names above then you need to change the export names below
-export { HeroLight as Light };
-export { HeroDark as Dark };
+export { HomePage as Light };
+export { HomePage2 as Dark };
+export { Logo2 as Gif };
 
 /* START HERE
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "mdabir1203";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
@@ -34,7 +37,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "As part of it, we are building our portfolio with React, Bootstrap, Redux, and the GitHub REST API.";
 
 /* Skills
  ************************************************************** 
@@ -83,24 +86,33 @@ export const skillData = [
   },
   {
     id: 9,
-    skill: <FaGithubSquare className="display-4" />,
-    name: "GitHub",
+    skill: <FaPython className="display-4" />,
+    name: "Python",
+  },
+  {
+    id: 10,
+    skill: <FaRaspberryPi className="display-4" />,
+    name: "RaspberryPi",
   },
 ];
 
-// Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = null;
+// Resume link (string - "https://YourResumeUrl")
+export const resume = "https://drive.google.com/file/d/1pQyCLL-mn3ymTv5k5nI9VQoG3SAQR9ks/view?usp=sharing";
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["libft", "42 Exam Concepts", "example-3"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
-    name: "example-1",
+    name: "libft",
+    image: Logo,
+  },
+  {
+    name: "",
     image: Logo,
   },
 ];

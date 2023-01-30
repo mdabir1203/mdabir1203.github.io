@@ -5,7 +5,7 @@ import styled from "styled-components";
 // Icons
 import { FaChevronCircleDown } from "react-icons/fa";
 // Media
-import Logo from "../images/logo.svg";
+import Logo from "../images/logoWob.png";
 import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
@@ -59,7 +59,7 @@ const StyledHero = styled.header`
     }
   }
 
-  @media screen and (min-width: 1180px) {
+  @media screen and (min-width: 1900px) {
     &::before {
       background: ${({ theme }) =>
         theme.name === "light"

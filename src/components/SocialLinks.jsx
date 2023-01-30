@@ -26,7 +26,9 @@ export default function SocialLinks() {
         <FaGithub />
       </a>
       {blog && (
-        <a href={blog} aria-label="External link" className="link-icons">
+        <a 
+          href={blog} aria-label="External link" 
+          className="link-icons">
           {Blog}
         </a>
       )}
