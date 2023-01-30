@@ -1,15 +1,15 @@
 // Skills icons - https://react-icons.github.io/react-icons/
 import {
   FaHtml5,
-  FaCss3Alt,
   FaBootstrap,
   FaReact,
-  FaGitAlt,
   FaRaspberryPi,
   FaPython,
   FaLink,
+  FaStackOverflow,
+  FaMicrosoft,
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiJupyter, SiTensorflow, SiWireshark } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo1.svg";
@@ -51,48 +51,48 @@ export const skillData = [
   },
   {
     id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
-  },
-  {
-    id: 3,
-    skill: <SiJavascript className="display-4" />,
-    name: "JavaScript",
-  },
-  {
-    id: 4,
     skill: <FaBootstrap className="display-4" />,
     name: "BootStrap",
   },
   {
-    id: 5,
+    id: 3,
     skill: <FaReact className="display-4" />,
     name: "React",
   },
   {
+    id: 4,
+    skill: <FaMicrosoft className="display-4" />,
+    name: "Microsoft Office",
+  },
+  {
+    id: 5,
+    skill: <SiJupyter className="display-4" />,
+    name: "Jupyter Notebook",
+  },
+  {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <SiTensorflow className="display-4" />,
+    name: "Tensorflow",
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
-    skill: <FaGitAlt className="display-4" />,
-    name: "Git",
-  },
-  {
-    id: 9,
     skill: <FaPython className="display-4" />,
     name: "Python",
   },
   {
-    id: 10,
+    id: 8,
     skill: <FaRaspberryPi className="display-4" />,
     name: "RaspberryPi",
+  },
+  {
+    id: 9,
+    skill: <FaStackOverflow className="display-4" />,
+    name: "StackOverflow",
+  },
+  {
+    id: 10,
+    skill: <SiWireshark className="display-4" />,
+    name: "Wireshark",
   },
 ];
 
@@ -103,7 +103,7 @@ export const resume = "https://drive.google.com/file/d/1pQyCLL-mn3ymTv5k5nI9VQoG
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["libft", "42 Exam Concepts", "example-3"];
+export const filteredProjects = ["libft", "42 Exam Concepts"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
@@ -112,8 +112,12 @@ export const projectCardImages = [
     image: Logo,
   },
   {
-    name: "",
-    image: Logo,
+    name: "42_Exam_Concepts",
+    image: Logo2,
+  },
+  {
+    name: "42Halloween_WOB_FUN",
+    image: Logo2,
   },
 ];
 
