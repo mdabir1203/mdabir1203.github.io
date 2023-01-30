@@ -97,7 +97,9 @@ export default function Hero() {
             <img
               src={Logo}
               alt="React Logo"
-              className="w-75 mx-auto hero-img"
+              height="200px"
+              width="200px"
+              className="w-10 mx-auto hero-img"
             />
           </Col>
         </Row>
