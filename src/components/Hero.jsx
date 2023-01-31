@@ -49,9 +49,16 @@ const StyledHero = styled.header`
     z-index: -1;
   }
 
+  // related with the location
   .down-container {
     height: 10rem;
   }
+
+  .topright{
+    position: absolute;
+    top: 30px;
+    right: 16px;
+  };
 
   @media (prefers-reduced-motion: no-preference) {
     .hero-img {
@@ -94,13 +101,15 @@ export default function Hero() {
             </div>
           </Col>
           <Col className="d-none d-md-block">
+          <div class="topright">
             <img
               src={Logo}
-              alt="React Logo"
+              alt="React Logo" 
               height="200px"
               width="200px"
+              top="80"
               className="w-10 mx-auto hero-img"
-            />
+            /></div>
           </Col>
         </Row>
         <Row className="align-items-end down-container">
@@ -114,3 +123,4 @@ export default function Hero() {
     </StyledHero>
   );
 }
+
