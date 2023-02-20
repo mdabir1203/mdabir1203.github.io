@@ -14,9 +14,10 @@ import { SiJupyter, SiTensorflow, SiWireshark } from "react-icons/si";
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo1.svg";
 import Logo2 from "./images/Divergence.gif";
+import Logo3 from "./images/exam_concept.png";
+import Logo4 from "./images/fun_script.png"
 // Hero Images (add your images to the /images directory with the same names)
 import HomePage from "./images/homepage.png";
-
 import HomePage2 from "./images/homepage2.png";
 // If you change the import names above then you need to change the export names below
 export { HomePage as Light };
@@ -98,12 +99,13 @@ export const skillData = [
 
 // Resume link (string - "https://YourResumeUrl")
 export const resume = "https://drive.google.com/file/d/1pQyCLL-mn3ymTv5k5nI9VQoG3SAQR9ks/view?usp=sharing";
+export const obsidian = "obsidian://open?vault=OSINT&file=Assesment%2FDeep%20Learning%20Models"
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["libft", "42 Exam Concepts"];
+export const filteredProjects = ["libft", "42Halloween_WOB_FUN", "Get_Next_Line_42", "42_Exam_Concepts"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
@@ -113,11 +115,11 @@ export const projectCardImages = [
   },
   {
     name: "42_Exam_Concepts",
-    image: Logo2,
+    image: Logo3,
   },
   {
     name: "42Halloween_WOB_FUN",
-    image: Logo2,
+    image: Logo4,
   },
 ];
 
