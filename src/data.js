@@ -8,6 +8,11 @@ import {
   FaLink,
   FaStackOverflow,
   FaMicrosoft,
+  FaPeopleArrows,
+  FaUsersCog,
+  FaRocket,
+  FaDiceD20,
+  FaUserTie,
 } from "react-icons/fa";
 import { SiJupyter, SiTensorflow, SiWireshark } from "react-icons/si";
 
@@ -16,6 +21,7 @@ import Logo from "./images/logo1.svg";
 import Logo2 from "./images/Divergence.gif";
 import Logo3 from "./images/exam_concept.png";
 import Logo4 from "./images/fun_script.png"
+import Logo5 from "./images/gnl.png"
 // Hero Images (add your images to the /images directory with the same names)
 import HomePage from "./images/homepage.png";
 import HomePage2 from "./images/homepage2.png";
@@ -44,7 +50,7 @@ export const moreInfo =
  ************************************************************** 
   Add or remove skills in the SAME format below, there must be one icon imported above per skill below.
 */
-export const skillData = [
+export const HardSkill = [
   {
     id: 1,
     skill: <FaHtml5 className="display-4" />,
@@ -97,22 +103,49 @@ export const skillData = [
   },
 ];
 
+export const SoftSkill = [
+    
+    {
+      id: 1,
+      skill: <FaUserTie className="display-5" />,
+      name: "Leadership",
+    },
+    {
+      id: 1,
+      skill: <FaPeopleArrows className="display-5" />,
+      name: "Teamwork",
+    },
+    {
+      id: 2,
+      skill: <FaDiceD20 className="display-5" />,
+      name: "Emotional Intelligence",
+    },
+    {
+      id: 3,
+      skill: <FaRocket className="display-5" />,
+      name: "Adaptibility",
+    },
+    {
+      id: 4,
+      skill: <FaUsersCog className="display-5" />,
+      name: "Critical Thinking",
+    },
+];
+
+
 // Resume link (string - "https://YourResumeUrl")
 export const resume = "https://drive.google.com/file/d/1pQyCLL-mn3ymTv5k5nI9VQoG3SAQR9ks/view?usp=sharing";
-export const obsidian = "obsidian://open?vault=OSINT&file=Assesment%2FDeep%20Learning%20Models"
+export const MyBlog = "obsidian://open?vault=OSINT&file=Assesment%2FDeep%20Learning%20Models"
 
 /* Projects
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["libft", "42Halloween_WOB_FUN", "Get_Next_Line_42", "42_Exam_Concepts"];
+export const filteredProjects = ["42Halloween_WOB_FUN", "Get_Next_Line_42", "42_Exam_Concepts", "DeepLearning_Transformers"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
-  {
-    name: "libft",
-    image: Logo,
-  },
+
   {
     name: "42_Exam_Concepts",
     image: Logo3,
@@ -120,6 +153,14 @@ export const projectCardImages = [
   {
     name: "42Halloween_WOB_FUN",
     image: Logo4,
+  },
+  {
+    name: "DeepLearning_Transformers",
+    image: Logo4,
+  },
+  {
+    name: "Get_Next_Line_42",
+    image: Logo5,
   },
 ];
 
