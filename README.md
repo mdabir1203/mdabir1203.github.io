@@ -9,9 +9,19 @@ Site Under Process... Please feedback or ask me Features to implement
 
 Current Features:
 
-1. Skills shown
+1. Skills Category
 2. Spinning logo
 3. Icons for Soft and Hard Skills
+4. Separate Buttons linked to Github projects and CV + Learning Blog on Obsidian
+
+
+
+Tech Stach Used:
+
+1. React App Template
+2. Midjourney AI for graphics
+3. ChatGPT3 for debugging
+
 
 
 Templates created by @mshuber1981 and modified by me.
